@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form>
+        <h1>Ajit Form</h1>
+        <h2>Contact Info</h2>
+        <p> Name:<input type="text" name="name"></input></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>Male:<input type="radio" name="gender"></input>
+            female:<input type="radio" name="gender">
+        </p>
+        </fieldset>
+        <p>Address <textarea name="address" id="address" colspan="100" rowspan="8"></textarea></p>
+        <p>Pincode:<input type="number" name="pincode" id="pincode"></input> </p>
+
+        <h2>Payment Information</h2>
+        <p>Card Type:
+            <select name="card_type" id="card_type">
+                <option value="">--Select a card type</option>
+                <option value="visa">Visa</option>
+                <option value="rupay">Rupay</option>
+                <option value="mastercard">MasterCard</option>
+
+            </select>
+        </p>
+        <p>
+            Card number <input type="number" name="card_number" id="card_number"></input>
+            
+        </p>
+        <p>
+            Expiry Date:<input type="date" name="expiry_date"></input>
+        </p>
+        <p>
+            CVV:<input type="password" name="cvv_number"></input>
+        </p>
+        <p>
+            <input type="submit" value="Pay Now"></input>
+        </p>
+    </form>
+    
+</body>
+</html>
